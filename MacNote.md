@@ -1,4 +1,4 @@
-# let Mac OS X Mavericks syslog allow incoming connecting:
+# let Mac OS X Mavericks syslog allow incoming connections:
 Terminal:
 cd /System/Library/LaunchDaemons
 sudo /usr/libexec/PlistBuddy -c "add :Sockets:NetworkListener dict" com.apple.syslogd.plist
